@@ -3,27 +3,23 @@ name: yangsinian8765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
-jobs:  # 20276
+    - cron: '0 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yangsinian8765
         env:
-          xzy70521: ${{ secrets.xzy70521 }}
+          he01403: ${{ secrets.he01403 }}
         run: |
-          echo $xzy70521 | jq -r .tq738 | /bin/bash
-          echo $zs114 | jq -r .qd605 | /bin/bash
-          echo $e4286 | jq -r .wgfls71362 | /bin/bash
-          echo $cmtk34364 | jq -r .fpc666 | /bin/bash
-          echo $wjsmj0812 | jq -r .zcz507 | /bin/bash
-          echo $uyzdw31 | jq -r .y6520 | /bin/bash
-          echo $u807 | jq -r .le4 | /bin/bash
-          echo $m41 | jq -r .cjpl967 | /bin/bash
-          echo $ay7820 | jq -r .lxw82 | /bin/bash
-          echo $gjg0233 | jq -r .j37 | /bin/bash
-          echo $dxuv6346 | jq -r .u0 | /bin/bash
-          echo $cdct93669 | jq -r .yzp5647 | /bin/bash
-          echo $qt7 | jq -r .ed2 | /bin/bash
+          echo $he01403 | jq -r .s7 | /bin/bash
+          echo $b58 | jq -r .hly743 | /bin/bash
+          echo $p581 | jq -r .mnlx09563 | /bin/bash
+          echo $ees0 | jq -r .dl2979 | /bin/bash
+          echo $cmc96 | jq -r .u8 | /bin/bash
+          echo $qort422 | jq -r .m7 | /bin/bash
+          echo $cggdc2363 | jq -r .zeq1420 | /bin/bash
+          echo $hicmj8857 | jq -r .ti16818 | /bin/bash
+          echo $ono58 | jq -r .lxs5140 | /bin/bash
 
